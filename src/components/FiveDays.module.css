@@ -1,0 +1,27 @@
+img {
+  height: 50px;
+  width: 50px;
+}
+.header {
+  width: 100%;
+  padding: 20px 20px;
+  background: rgb(224, 219, 219);
+}
+button {
+  margin: 5px;
+  border: none;
+  background: #10beee;
+  border-radius: 5px;
+  font-size: 20px;
+}
+input {
+  font-size: 20px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.Cards {
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+}

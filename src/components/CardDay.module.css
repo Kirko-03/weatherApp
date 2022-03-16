@@ -1,0 +1,30 @@
+.Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  background: green;
+  border: 3px gray solid;
+  width: 250px;
+  height: 300px;
+}
+.Card,
+.Card div {
+  margin: 10px;
+}
+
+.day {
+  font-size: 20px;
+}
+.temp {
+  font-size: 25px;
+}
+.description {
+  color: #ffffff;
+  padding: 5px 5px;
+  background-color: #0dc0f1;
+  border-radius: 5px;
+  width: 200px;
+  margin: 10px;
+}
